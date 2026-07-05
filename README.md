@@ -1,6 +1,6 @@
 # Overview
 
-An implementation from Karpathy's idea of autoresearch, focusing on Smart Contract Auditing & Low Frequency Trading
+An implementation of Karpathy's autoresearch, focusing on Smart Contract Auditing & Low Frequency Trading
 
 # The loop
 ## Smart contract audit
