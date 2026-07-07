@@ -5,14 +5,14 @@ An implementation of Karpathy's autoresearch, focusing on Smart Contract Auditin
 # The loop
 ## Smart contract audit
 1. Agent read contracts code in /target folder
-2. Read audit history in history.csv
+2. Read experiment history in /history
 3. Conduct new exploit direction
 
     3.1 Check past experiments to see if they are worth exploit more or it's better to just seek for new direction
 
 4. Implement & test that approach
-5. Evaluate the result then save this experiment to history.csv
-6. If goal is reached: stop, else repeat step 2.
+5. Evaluate the result then save this experiment to history/experiment-xxx.csv
+6. If goal is reached: stop, else repeat step 3.
 
 ## Low frequency trading
 Two agents:
